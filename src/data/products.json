@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "title": "Lápiz",
+        "price": 2,
+        "description":"Super lápiz",
+        "image":"src",
+        "category":"Papelería"
+    },
+        {
+        "id": "2",
+        "title": "Boli",
+        "price": 3,
+        "description":"Boli precioso",
+        "image":"src",
+        "category":"Papelería"
+    },
+        {
+        "id": "3",
+        "title": "Papel",
+        "price": 1,
+        "description":"Papel reciclado",
+        "image":"src",
+        "category":"Papelería"
+    },
+        {
+        "id": "4",
+        "title": "Ordenador portátil",
+        "price": 500,
+        "description":"Ordenador portátil de última generación",
+        "image":"src",
+        "category":"Informática"
+    },
+        {
+        "id": "5",
+        "title": "PlayStation",
+        "price": 300,
+        "description":"Consola de videojuegos",
+        "image":"src",
+        "category":"Informática"
+    },
+        {
+        "id": "6",
+        "title": "Teclado",
+        "price": 30,
+        "description":"Teclado mecánico silencioso",
+        "image":"src",
+        "category":"Informática"
+    },
+        {
+        "id": "7",
+        "title": "Mouse",
+        "price": 20,
+        "description":"Mouse logitech",
+        "image":"src",
+        "category":"Informática"
+    },
+        {
+        "id": "8",
+        "title": "Pantalla",
+        "price": 100,
+        "description":"Pantalla 2K 240Hz",
+        "image":"src",
+        "category":"Informática"
+    },
+        {
+        "id": "9",
+        "title": "Goma",
+        "price": 2,
+        "description":"Goma de borrar enorme",
+        "image":"src",
+        "category":"Papelería"
+    },
+        {
+        "id": "10",
+        "title": "Clips",
+        "price": 3,
+        "description":"Clips de colores",
+        "image":"src",
+        "category":"Papelería"
+    }
+]
