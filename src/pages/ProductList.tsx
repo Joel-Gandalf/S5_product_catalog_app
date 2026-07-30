@@ -1,10 +1,14 @@
 import { Link } from 'react-router'
+import { useState } from 'react';
+import type { Product } from '../types/product';
+import products from '../data/products.json'
 
-// const books = [
-//     { id: '1', title: 'React Essentials' },
-//     { id: '2', title: 'TypeScript in Practice' },
-//     { id: '3', title: 'Advanced Web Routing' }
-// ]
+        // id: string;
+        // title: string;
+        // price: number;
+        // description:string;
+        // image:string;
+        // category:string;
 
 export const ProductList = () => {
     return (
@@ -13,7 +17,7 @@ export const ProductList = () => {
             <ul>
                 {products.map(product => (
                     <li key={product.id}>
-                        <Link to={`/books/${product.id}`}>
+                        <Link to={`/products/${product.id}`}>
                             {product.title}
                         </Link>
                     </li>
