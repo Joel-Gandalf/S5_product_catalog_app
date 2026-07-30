@@ -1,12 +1,6 @@
 import { useParams, useNavigate } from 'react-router'
 import products from '../data/products.json'
-
-        // id: string;
-        // title: string;
-        // price: number;
-        // description:string;
-        // image:string;
-        // category:string;
+import { ProductCardDetail } from '../components/ProductCardDetail'
 
 export const ProductDetails = () => {
     const { productId } = useParams()
@@ -14,15 +8,14 @@ export const ProductDetails = () => {
 
     const product = products.find(product => product.id === productId)
 
-    if (!product) return <div>Llibre no trobat</div>
+    if (!product) return <div>Producto no encontrado</div>
 
     return (
         <div>
-            <h1>{product.title}</h1>
-            <p>Autor: {product.description}</p>
-            <button onClick={() => navigate('/products')}>
+            <button onClick={() => navigate('/')}>
                 Volver al listado
             </button>
+            <ProductCardDetail product={product}/>
         </div>
     )
 }
