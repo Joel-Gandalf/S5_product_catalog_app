@@ -8,10 +8,10 @@ export const ProductCardDetail = ({product: {id ,title, price, description, imag
     return (
         <li>
             <h2>{title}</h2>
-            <p>{id}</p>
-            <p>{description}</p>
-            <p>{price}</p>
-            <p>{category}</p>
+            <p>id: {id}</p>
+            <p>Descripción: {description}</p>
+            <p>Precio: {price} €</p>
+            <p>Categoría: {category}</p>
             <img src={image} alt={description} />
         </li>
     );
