@@ -1,16 +1,17 @@
 import { Outlet, NavLink } from 'react-router'
+import './index.css'
 
 export const Layout = () => {
   const navStyle = ({ isActive }: { isActive: boolean }) => ({
-    isActive ? 'font-bold' : 'font-normal'
+    fontWeight: isActive ? 'font-bold' : 'font-normal'
   })
   
   return (
     <div>
       <header>
         <nav>
-          <NavLink to="/" className={navStyle}>Inicio</NavLink>
-          <NavLink to="/products" className={navStyle}>productos</NavLink>
+          <NavLink to="/" style={navStyle}>Inicio</NavLink>
+          <NavLink to="/products" style={navStyle}>productos</NavLink>
         </nav>
       </header>
       
