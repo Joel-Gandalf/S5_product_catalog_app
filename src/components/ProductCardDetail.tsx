@@ -1,5 +1,4 @@
 import type { Product } from '../types/product';
-import products from '../data/products.json'
 
 export interface ProductCardDetailProps {
     product: Product
@@ -13,7 +12,7 @@ export const ProductCardDetail = ({product: {id ,title, price, description, imag
             <p>{description}</p>
             <p>{price}</p>
             <p>{category}</p>
-            <img src={image} alt="" />
+            <img src={image} alt={description} />
         </li>
     );
 }
